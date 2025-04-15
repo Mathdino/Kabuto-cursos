@@ -1,13 +1,25 @@
 <template>
-  <div></div>
+  <div>
+    <div v-if="loading">
+      <p>Carregando . . .</p>
+    </div>
+
+    <div v-if="api">
+      <p>{{ api }}</p>
+    </div>
+  </div>
 </template>
 
 <script>
+import fetchData from '@/mixins/fetchData';
+
 export default {
   name: 'home',
-}
+  mixins: [fetchData],
+  created() {
+    this.fetchData('/home');
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
