@@ -41,5 +41,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "author": "Matheus Bernardino",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathdino/Kabuto-cursos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mathdino/Kabuto-cursos/issues"
+  },
+  "homepage": "https://github.com/Mathdino/Kabuto-cursos#readme"
 }
