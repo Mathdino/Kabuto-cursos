@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from '../views/Home.vue';
-import Contato from '../views/Contato.vue';
-import Cursos from '../views/Cursos.vue';
+import Home from '@/views/Home.vue';
+import Contato from '@/views/Contato.vue';
+import Cursos from '@/views/Cursos.vue';
 
 Vue.use(Router);
 

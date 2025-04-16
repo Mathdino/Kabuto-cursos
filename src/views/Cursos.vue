@@ -15,7 +15,7 @@
 import fetchData from '@/mixins/fetchData';
 
 export default {
-  name: 'cursos',
+  name: 'CursosView',
   mixins: [fetchData],
   created() {
     this.fetchData('/cursos');

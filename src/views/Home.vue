@@ -31,7 +31,7 @@
 import fetchData from '@/mixins/fetchData';
 
 export default {
-  name: 'home',
+  name: 'HomeView',
   mixins: [fetchData],
   created() {
     this.fetchData('/home');
