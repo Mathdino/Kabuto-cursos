@@ -15,7 +15,7 @@ export default {
           setTimeout(() => {
             this.api = res;
             this.loading = false;
-          }, 1500);
+          }, 1000);
         });
     },
   },
