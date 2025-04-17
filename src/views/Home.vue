@@ -15,8 +15,8 @@
             <h2>Avaliações</h2>
             <ul>
               <li v-for="avaliacao in api.avaliacoes" :key="avaliacao.nome">
-                <p>{{ avaliacao.nome }}</p>
-                <p>{{ avaliacao.descricao }}</p>
+                <p class='avaliacao-nome'>{{ avaliacao.nome }}</p>
+                <p class="avaliacao-descricao">{{ avaliacao.descricao }}</p>
               </li>
             </ul>
           </div>
@@ -52,5 +52,11 @@ export default {
   margin-bottom: 40px;
   box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+.avaliacao-nome{
+  font-weight: 600;
+}
+.avaliacao-descricao{
+    margin-bottom: 40px;
 }
 </style>
